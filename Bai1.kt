@@ -9,6 +9,16 @@ fun solve(n : Int){
         println("NO");
     } else{
         println("YES");
+        show(n);
+    }
+}
+fun show(n: Int){
+    for (i in 1..n step 2){
+        print("$i ");
+    }
+    println();
+    for (i in 2..n step 2){
+        print("$i ");
     }
 }
 
