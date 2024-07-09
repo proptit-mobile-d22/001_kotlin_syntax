@@ -7,12 +7,13 @@ fun solve(n : Int){
         return
     }
     val list = mutableListOf<Int>()
-    for(i in 1..n step 2){
-        list.add(i)
-    }
     for(i in 2..n step 2){
         list.add(i)
     }
+    for(i in 1..n step 2){
+        list.add(i)
+    }
+
     println(list)
 }
 
